@@ -17,6 +17,9 @@ import {
   toCamelCase,
 } from './aem.js';
 
+// Origin for DA's "nx" hosted plugins (e.g. the experimentation sidekick plugin).
+export const NX_ORIGIN = 'https://da.live/nx';
+
 /**
  * Builds hero block and prepends to main in a new section.
  * @param {Element} main The container element
